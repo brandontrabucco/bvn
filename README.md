@@ -1,7 +1,7 @@
 # Birkhoff-von Neumann Decomposition
 
 
-This repository implements a batched fast Birkhoff-von Neumann Decomposition using TensorFlow 2.3. This implementation uses the greedy birkhoff heuristic in order to guarentee that the first k permutation matrices found by the algorithm have largest birkhoff coefficients. 
+This repository implements a fast batch-wise Birkhoff-von Neumann Decomposition with a Greedy Birkhoff Heuristic using TensorFlow 2.3. This implementation uses the greedy birkhoff heuristic in order to guarentee that the first k permutation matrices found by the algorithm have largest birkhoff coefficients. 
 
 ## Usage
 
