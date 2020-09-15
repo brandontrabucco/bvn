@@ -5,7 +5,7 @@ This repository implements a batched fast Birkhoff-von Neumann Decomposition usi
 
 ## Usage
 
-```
+```python
 import bvn
 
 # create a doubly stochastic x
