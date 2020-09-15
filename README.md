@@ -18,3 +18,12 @@ p, c = bvn.birkhoff_von_neumann(x)
 # permutations p and coefficients c approximate x
 x == tf.reduce_sum(p * c[..., tf.newaxis, tf.newaxis], axis=1)
 ```
+
+## Dependencies
+
+This package is meant for use in TensorFlow and requires the following packages to be installed in python.
+
+```bash
+pip install tensorflow==2.3
+pip install networkx
+```
