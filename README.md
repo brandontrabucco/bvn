@@ -27,3 +27,7 @@ This package is meant for use in TensorFlow and requires the following packages 
 pip install tensorflow==2.3
 pip install networkx
 ```
+
+## Background
+
+Refer to this paper for a mathematical justification: https://doi.org/10.1016/j.laa.2016.02.023
