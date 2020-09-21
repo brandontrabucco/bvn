@@ -7,7 +7,7 @@ This repository implements a fast batch-wise Birkhoff-von Neumann Decomposition 
 You may install our package using this command.
 
 ```bash
-pip install -e git+git://github.com/brandontrabucco/bvn.git#egg=bvn
+pip install bvn
 ```
 
 ## Usage
