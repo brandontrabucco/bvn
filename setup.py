@@ -15,7 +15,7 @@ setup(
   install_requires=['networkx', 'numpy', 'tensorflow'],
   classifiers=[
     'Development Status :: 5 - Production/Stable',
-    'Intended Audience :: Scientists',
+    'Intended Audience :: Developers',
     'Topic :: Software Development :: Build Tools',
     'License :: OSI Approved :: MIT License',
     'Programming Language :: Python :: 3',
