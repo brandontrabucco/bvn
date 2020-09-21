@@ -17,10 +17,10 @@ import tensorflow as tf
 import bvn
 
 # create a doubly stochastic x
-x = tf.fill([32, 5, 5], 0.2, dtype=tf.float32)
+x = tf.fill([32, 5, 5], 0.2, name='doubly_stochastic')
 
 # find its BvN decomposition
-p, c = bvn.bvn(x)
+p, c = bvn.bvn(x, 100)
 
 # permutations p and coefficients c approximate x
 x == tf.reduce_sum(p * c[..., tf.newaxis, tf.newaxis], axis=1)
